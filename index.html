@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework_1_ver_2</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="font/font-awesome/css/font-awesome.css">
+</head>
+<body>
+<div class="main">
+    <header>
+        <span class="return-btn"><i class="fa fa-angle-left" title="Назад"></i></span>
+        <span class="head-title">Manage Products</span>
+    </header>
+    <div class="main-content">
+        <div class="content-info">
+
+            <div class="tabs">
+                <div class="active-info">
+                    <span class="number-products">14</span>
+                    <span class="products-title">Products</span>
+                </div>
+                <div class="empty_box"></div>
+                <div class="box-icon">
+                    <sup class="index-icon">8</sup>
+                    <span class="tabs-icon-green"><i class="fa fa-check-square"></i></span>
+                    <span class="icon-name-plenty">Plenty in Stock</span>
+                </div>
+                <div class="box-icon">
+                    <sup class="index-icon-orange">3</sup>
+                    <span class="tabs-icon-orange"><i class="fa fa-exclamation-triangle"></i></span>
+                    <span class="icon-name-shortage">Shortage</span>
+                </div>
+                <div class="box-icon">
+                    <sup class="index-icon">3</sup>
+                    <span class="tabs-icon-red"><i class="fa fa-exclamation-circle"></i></span>
+                    <span class="icon-name-out">Out of Stock</span>
+                </div>
+            </div>
+        </div>
+        <div class="products-table">
+            <p> Products (14)</p>
+            <div class="search-area">
+                <input class="search-input" type="text" placeholder="Поиск">
+                <span>
+                    <i class="fa fa-search"></i>
+                </span>
+            </div>
+            <table class="line-items">
+                <tr class="column-name">
+                    <th align="left"><input class="checkbox-custom" type="checkbox"></th>
+                    <th class="td-name"> Product Name</th>
+                    <th align="left">Supplier</th>
+                    <th align="right">Price</th>
+                    <th align="right">Units Ordered</th>
+                    <th class="td-stock">Units in stock</th>
+                    <th></th>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name "><span>Alice Mutton</span> </td>
+                    <td align="left">Exotic Liquids</td>
+                    <td align="right"><span>75.00</span> EUR </td>
+                    <td align="right"><span>20</span> PC </td>
+                    <td class="td-stock units-green"><span>90</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Aniseed Syrup</span> </td>
+                    <td align="left">Grandma Kelly's Homestead</td>
+                    <td align="right"><span>3.00</span> EUR </td>
+                    <td align="right"><span>6</span> PC </td>
+                    <td class="td-stock units-green"><span>100</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Carnarvon Tigers</span> </td>
+                    <td align="left">Grandma Kelly's Homestead</td>
+                    <td align="right"><span>56.00</span> EUR </td>
+                    <td align="right"><span>40</span> PC </td>
+                    <td class="td-stock units-green"><span>36</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chai</span> </td>
+                    <td align="left">Exotic Liquids</td>
+                    <td align="right"><span>8.00</span> EUR </td>
+                    <td align="right"><span>10</span> PC </td>
+                    <td class="td-stock units-green"><span>39</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chang</span> </td>
+                    <td align="left">Lyngbysild</td>
+                    <td align="right"><span>6.00</span> EUR </td>
+                    <td align="right"><span>7</span> PC </td>
+                    <td class="td-stock units-red"><span>0</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chef Anton's Cajun Seasoning</span> </td>
+                    <td align="left">Grandma Kelly's Homestead</td>
+                    <td align="right"><span>108.00</span> EUR </td>
+                    <td align="right"><span>9</span> PC </td>
+                    <td class="td-stock units-red"><span>0</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chef Anton's Gumbo Mix</span> </td>
+                    <td align="left">New Orleans Cajun Delights</td>
+                    <td align="right"><span>18.00</span> EUR </td>
+                    <td align="right"><span>0</span> PC </td>
+                    <td class="td-stock units-green"><span>21</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chang</span> </td>
+                    <td align="left">Exotic Liquids</td>
+                    <td align="right"><span>13</span> EUR </td>
+                    <td align="right"><span>10</span> PC </td>
+                    <td class="td-stock units-orange"><span>4</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Alice Mutton</span> </td>
+                    <td align="left">New Orleans Cajun Delights</td>
+                    <td align="right"><span>18</span> EUR </td>
+                    <td align="right"><span>25</span> PC </td>
+                    <td class="td-stock units-green"><span>25</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chef Anton's Cajun Seasoning</span> </td>
+                    <td align="left">Lyngbysild</td>
+                    <td align="right"><span>130.00</span> EUR </td>
+                    <td align="right"><span>0</span> PC </td>
+                    <td class="td-stock units-green"><span>40</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chang</span> </td>
+                    <td align="left">New Orleans Cajun Delights</td>
+                    <td align="right"><span>35.00</span> EUR </td>
+                    <td align="right"><span>32</span> PC </td>
+                    <td class="td-stock units-orange"><span>4</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chef Anton's Cajun Seasoning</span> </td>
+                    <td align="left">Grandma Kelly's Homestead</td>
+                    <td align="right"><span>19.00</span> EUR </td>
+                    <td align="right"><span>3</span> PC </td>
+                    <td class="td-stock units-orange"><span>2</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Alice Mutton</span> </td>
+                    <td align="left">Lyngbysild</td>
+                    <td align="right"><span>7.00</span> EUR </td>
+                    <td align="right"><span>40</span> PC </td>
+                    <td class="td-stock units-red"><span>0</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chef Anton's Cajun Seasoning</span> </td>
+                    <td align="left">Exotic Liquids</td>
+                    <td align="right"><span>21.00</span> EUR </td>
+                    <td align="right"><span>3</span> PC </td>
+                    <td class="td-stock units-green"><span>33</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Carnarvon Tigers</span> </td>
+                    <td align="left">Grandma Kelly's Homestead</td>
+                    <td align="right"><span>56.00</span> EUR </td>
+                    <td align="right"><span>40</span> PC </td>
+                    <td class="td-stock units-green"><span>36</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chef Anton's Cajun Seasoning</span> </td>
+                    <td align="left">Grandma Kelly's Homestead</td>
+                    <td align="right"><span>19.00</span> EUR </td>
+                    <td align="right"><span>3</span> PC </td>
+                    <td class="td-stock units-orange"><span>2</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chang</span> </td>
+                    <td align="left">New Orleans Cajun Delights</td>
+                    <td align="right"><span>35.00</span> EUR </td>
+                    <td align="right"><span>32</span> PC </td>
+                    <td class="td-stock units-orange"><span>4</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Carnarvon Tigers</span> </td>
+                    <td align="left">Grandma Kelly's Homestead</td>
+                    <td align="right"><span>56.00</span> EUR </td>
+                    <td align="right"><span>40</span> PC </td>
+                    <td class="td-stock units-green"><span>36</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+                <tr class="table-row">
+                    <td class="td-checkbox"><input type="checkbox"></td>
+                    <td class="td-name"><span>Chef Anton's Cajun Seasoning</span> </td>
+                    <td align="left">Grandma Kelly's Homestead</td>
+                    <td align="right"><span>19.00</span> EUR </td>
+                    <td align="right"><span>3</span> PC </td>
+                    <td class="td-stock units-orange"><span>2</span> PC </td>
+                    <td ><i class="fa fa-angle-right" title="Подробнее"></i></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <div class="mail-footer">
+            <i class="fa fa-envelope-o"></i>
+        </div>
+        <button class="remove-btn">Remove</button>
+        <button class="order-btn">Order</button>
+
+    </footer>
+</div>
+</body>
+</html>
